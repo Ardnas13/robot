@@ -1,0 +1,11 @@
+Programming assignment - Robot
+
+Programmet körs genom att stå i mappen DevoteamRobot och köra kommandot:
+./gradlew run --args="5 5 0 0 E RFLFFLRF" 
+
+Testen körs genom:
+./gradlew test
+
+där .\gradlew kan vara något annorlunda beroende på terminal och OS. 
+De två första argumenten är storleken på rummet, nästa två är robotens startposition, 
+därefter riktning på roboten och sist vilken väg roboten ska gå.
